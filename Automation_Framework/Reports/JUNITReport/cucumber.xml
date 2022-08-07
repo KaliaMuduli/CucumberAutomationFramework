@@ -1,31 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="24.273">
-    <testcase classname="Test the login functinality of OrangeHRM Application using DataTable" name="Login to OrangeHRM with valid credential using Data table" time="7.476">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="41.623">
+    <testcase classname="Test the login functinality of OrangeHRM Application using DataTable" name="Login to OrangeHRM with valid credential using Data table" time="7.522">
         <system-out><![CDATA[Given User is on Login Page.................................................passed
 When User enter credential using DataTable..................................passed
 And click login button......................................................passed
 Then User should login to OrangeHRM successfully............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Test the login functinality of OrangeHRM Application" name="Login to OrangeHRM with valid credential" time="4.316">
+    <testcase classname="Test the login functinality of OrangeHRM Application" name="Login to OrangeHRM with valid credential" time="5.291">
         <system-out><![CDATA[Given User is on Login Page.................................................passed
 When User enter "Kanha" and "Kanha".........................................passed
 And click login button......................................................passed
 Then User should login to OrangeHRM successfully............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Test the login functinality of OrangeHRM Application Using Scenario Outline" name="Login to OrangeHRM with valid credential" time="5.957">
+    <testcase classname="Test the login functinality of OrangeHRM Application Using Scenario Outline" name="Login to OrangeHRM with valid credential" time="5.789">
         <system-out><![CDATA[Given User is on Login Page.................................................passed
 When User enter Kanha and Kanha.............................................passed
 And click login button......................................................passed
 Then User should login to OrangeHRM successfully............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Test the login functinality of OrangeHRM Application Using Scenario Outline" name="Login to OrangeHRM with valid credential 2" time="6.348">
+    <testcase classname="Test the login functinality of OrangeHRM Application Using Scenario Outline" name="Login to OrangeHRM with valid credential 2" time="5.843">
         <system-out><![CDATA[Given User is on Login Page.................................................passed
 When User enter Ankit and Ankit.............................................passed
 And click login button......................................................passed
 Then User should login to OrangeHRM successfully............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the login using tag Demo" name="Test1" time="4.176">
+        <system-out><![CDATA[Given User is on Login Page.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the login using tag Demo" name="Test3" time="4.278">
+        <system-out><![CDATA[Given User is on Login Page.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the login using tag Demo" name="Test5" time="4.223">
+        <system-out><![CDATA[Given User is on Login Page.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the login using tag Demo" name="Test6" time="4.324">
+        <system-out><![CDATA[Given User is on Login Page.................................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
