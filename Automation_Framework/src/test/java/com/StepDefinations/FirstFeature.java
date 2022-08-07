@@ -23,18 +23,20 @@ public class FirstFeature {
 	     
 	}
 
-	@When("User enter UserName and password")
-	public void user_enter_user_name_and_password() {
-	   driver.findElement(By.name("username")).sendKeys("Kanha"); 
-	   driver.findElement(By.name("password")).sendKeys("Kanha");
+	@When("^User enter (.+) and (.+)$")
+    public void user_enter_and(String username, String password) {
+	   driver.findElement(By.name("username")).sendKeys(username); 
+	   driver.findElement(By.name("password")).sendKeys(password);
 	   System.out.println("This is Step-2");
 	   
 	}
 
 	@And("click login button")
 	public void click_login_button() {
-		driver.findElement(By.xpath("//input[@name='password']//following::input[1]")).click();
+	//	driver.findElement(By.xpath("//input[@name='password']//following::input[1]")).click();
+		System.out.println(driver.getCurrentUrl());
 		System.out.println("This is Step-3");
+		
 	}
 
 	@Then("User should login to OrangeHRM successfully")

@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="7.233">
-    <testcase classname="Test the login functinality of OrangeHRM Application" name="Login to OrangeHRM with valid credential" time="7.087">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="17.792">
+    <testcase classname="Test the login functinality of OrangeHRM Application" name="Login to OrangeHRM with valid credential" time="6.951">
         <system-out><![CDATA[Given User is on Login Page.................................................passed
-When User enter UserName and password.......................................passed
+When User enter "Kanha" and "Kanha".........................................passed
+And click login button......................................................passed
+Then User should login to OrangeHRM successfully............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the login functinality of OrangeHRM Application Using Scenario Outline" name="Login to OrangeHRM with valid credential" time="5.406">
+        <system-out><![CDATA[Given User is on Login Page.................................................passed
+When User enter Kanha and Kanha.............................................passed
+And click login button......................................................passed
+Then User should login to OrangeHRM successfully............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the login functinality of OrangeHRM Application Using Scenario Outline" name="Login to OrangeHRM with valid credential 2" time="5.268">
+        <system-out><![CDATA[Given User is on Login Page.................................................passed
+When User enter Ankit and Ankit.............................................passed
 And click login button......................................................passed
 Then User should login to OrangeHRM successfully............................passed
 ]]></system-out>
