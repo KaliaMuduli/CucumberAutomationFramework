@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="40.989">
-    <testcase classname="Login1" name="Login Functionality Test1" time="9.806">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="20.704">
+    <testcase classname="Login1" name="Login Functionality Test1" time="8.756">
         <system-out><![CDATA[Given User Launch Chrome Web Browser........................................passed
 When User Open "https://www.nopcommerce.com/" page..........................passed
 And User NavigteTo Login Page...............................................passed
@@ -11,7 +11,7 @@ Then User should login successfully.........................................pass
 And Close the browser.......................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login1" name="Login Functionality Test1 2" time="24.406">
+    <testcase classname="Login1" name="Login Functionality Test1 2" time="5.719">
         <system-out><![CDATA[Given User Launch Chrome Web Browser........................................passed
 When User Open "https://www.nopcommerce.com/" page..........................passed
 And User NavigteTo Login Page...............................................passed
@@ -22,7 +22,7 @@ Then User should login successfully.........................................pass
 And Close the browser.......................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login2" name="Login Functionality Test1" time="6.557">
+    <testcase classname="Login2" name="Login Functionality Test1" time="6.067">
         <system-out><![CDATA[Given User Launch Chrome Web Browser........................................passed
 When User Open "https://www.nopcommerce.com/" page..........................passed
 And User NavigteTo Login Page...............................................passed

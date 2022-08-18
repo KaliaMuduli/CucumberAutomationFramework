@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="Features/",glue= {"stepDefinations"},monochrome=true,
-                 plugin= {"html:Reports\\HtmlReport","json:Reports\\JSONReport\\cucumber.json","junit:Reports\\JUNITReport\\cucumber.xml"},
+                 plugin= {"html:Reports/HtmlReport.html","json:Reports\\JSONReport\\cucumber.json","junit:Reports\\JUNITReport\\cucumber.xml"},
                  dryRun=false //Mapping between feature file and steps file
                 // strict=true   //It will check if any step is not defined in step def file
               //   tags="@SmokeTest or @SanityTest"
